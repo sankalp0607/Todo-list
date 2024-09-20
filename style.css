@@ -1,0 +1,116 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #00c6ff, #d0210a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-underline-position: auto;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #540438;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  box-shadow: 0 4px 12px rgba(0, 114, 255, 0.5);
+}
+
+button {
+  width: 80px;
+  padding: 12px;
+  background: linear-gradient(to right, #0072ff, #e93e05);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button:hover {
+  background: linear-gradient(to right, #00c6ff, #0d0f11);
+  transform: translateY(-3px);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 20px;
+}
+
+li {
+  background-color: #c792ba;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 114, 255, 0.15);
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 8cap;
+  color: #333;
+  font-size: 1rem;
+}
+
+li button {
+  background-color: #dfdf2d;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+li button:hover {
+  background-color: #c6290e;
+}
+
+li button:last-child {
+  background-color: #ff4d4d;
+}
+
+li button:last-child:hover {
+  background-color: #ff3333;
+}
+.completed {  
+  text-decoration: line-through;  
+  color: #05ac11;
+  nav-down: auto;
+}
