@@ -34,7 +34,7 @@ function completeTask(button) {
     taskItem.classList.toggle('completed');
     if (taskItem.classList.contains('completed')) {
         const img = document.createElement('img');
-        img.src = 'images/complete.png';
+        img.src = 'complete.png';
         img.alt = 'Completed';
         img.style.width = '20px';
         img.style.height = '20px';
